@@ -76,6 +76,7 @@ public class MenuController {
 
         model.addAttribute("title", "Add item to menu " + menu.getName());
         model.addAttribute("form", form);
+        model.addAttribute("menuId", menuId);
 
         return "menu/add-item";
 
